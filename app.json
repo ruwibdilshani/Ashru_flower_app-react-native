@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "AshRu",
+    "slug": "AshRu",
+    "version": "1.0.0",
+    "resizeMode": "contain",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+
+      }
+    },
+    "web": {
+
+    }
+  }
+}

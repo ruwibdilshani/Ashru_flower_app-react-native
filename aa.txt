@@ -1,0 +1,39 @@
+ return (
+
+        <Provider store={store}>
+        <NavigationContainer>
+            <Stack.Navigator
+                screenOptions={{
+                    headerShown: false,
+                    gestureEnabled: true, // Enable gestures
+                    cardStyleInterpolator: ({ current, next, layouts }) => {
+                        return {
+                            cardStyle: {
+                                transform: [
+                                    {
+                                        translateX: current.progress.interpolate({
+                                            inputRange: [0, 1],
+                                            outputRange: [layouts.screen.width, 0], // Right-to-left animation
+                                        }),
+                                    },
+                                ],
+                            },
+                        };
+                    },
+                }}
+            >
+                <Stack.Screen name="Login" component={LoginScreen} />
+                <Stack.Screen name="Tab" component={TabController} />
+                <Stack.Screen name="Register" component={RegisterScreen} />
+
+
+
+            </Stack.Navigator>
+        </NavigationContainer>
+        </Provider>
+
+    );
+}
+
+
+const Stack = createStackNavigator();
