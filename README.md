@@ -45,7 +45,7 @@ Before setting up the project, ensure you have the following installed:
 
 ```sh
 git clone <https://github.com/ruwibdilshani/Ashru_flower_app-react-native.git>
-cd cinnamon-bliss
+cd Ashru_flower_app-react-native
 ```
 
 ### 2. Install Dependencies
