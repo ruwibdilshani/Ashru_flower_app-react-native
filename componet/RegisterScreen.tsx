@@ -35,21 +35,17 @@ export default function RegisterScreen() {
             Alert.alert("Error", "Please fill all fields.");
             return;
         }
-
         if (!isChecked) {
             Alert.alert("Error", "You must agree to the terms and conditions.");
             return;
         }
 
-        // Proceed with registration (send data to backend, etc.)
         const userData = {
             name,
             email,
             password
         };
-
         dispatch(register(userData))
-
         navigation.navigate("Login");
     }
 
