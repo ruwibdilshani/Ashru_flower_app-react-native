@@ -6,19 +6,19 @@ import Icon from "react-native-vector-icons/Ionicons";
 
 // Sample data for flowers
 const trendingFlowers = [
-    { id: '1', name: 'Lily', price: '$12', image: 'https://images.pexels.com/photos/3563781/pexels-photo-3563781.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '2', name: 'Orchid', price: '$18', image: 'https://images.pexels.com/photos/2789728/pexels-photo-2789728.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '3', name: 'Rose', price: '$10', image: 'https://images.pexels.com/photos/5944199/pexels-photo-5944199.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '4', name: 'Tulip', price: '$15', image: 'https://images.pexels.com/photos/1108294/pexels-photo-1108294.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
+    { id: '1', name: 'Lily', price: '$12', image: 'https://images.unsplash.com/photo-1704728323042-0c4cf765e9e9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '2', name: 'Orchid', price: '$18', image: 'https://images.unsplash.com/photo-1534885320675-b08aa131cc5e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '3', name: 'Rose', price: '$10', image: 'https://images.unsplash.com/photo-1559563362-c667ba5f5480?q=80&w=1402&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '4', name: 'Tulip', price: '$15', image: 'https://images.unsplash.com/photo-1589994160839-163cd867cfe8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
 ];
 
 const featuredFlowers = [
-    { id: '1', name: 'Lily', price: '$12', image: 'https://images.pexels.com/photos/3563781/pexels-photo-3563781.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '2', name: 'Orchid', price: '$18', image: 'https://images.pexels.com/photos/2789728/pexels-photo-2789728.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '3', name: 'Lily', price: '$12', image: 'https://images.pexels.com/photos/3563781/pexels-photo-3563781.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '4', name: 'Orchid', price: '$18', image: 'https://images.pexels.com/photos/2789728/pexels-photo-2789728.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '5', name: 'Lily', price: '$12', image: 'https://images.pexels.com/photos/3563781/pexels-photo-3563781.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '6', name: 'Orchid', price: '$18', image: 'https://images.pexels.com/photos/2789728/pexels-photo-2789728.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
+    { id: '1', name: 'Lily', price: '$12', image: 'https://images.unsplash.com/photo-1704728323042-0c4cf765e9e9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '2', name: 'Orchid', price: '$18', image: 'https://images.unsplash.com/photo-1599463740831-a5015ef7b65a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '3', name: 'Lily', price: '$12', image: 'https://images.unsplash.com/photo-1567428051128-5f09a0200655?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '4', name: 'Orchid', price: '$18', image: 'https://images.unsplash.com/photo-1582862058398-c157c8424b54?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '5', name: 'Lily', price: '$12', image: 'https://plus.unsplash.com/premium_photo-1676498578286-94f337c53e81?q=80&w=1428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '6', name: 'Orchid', price: '$18', image: 'https://plus.unsplash.com/premium_photo-1713823800686-9d13d1df352a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
 ];
 
 const flowerCategories = [
@@ -32,13 +32,16 @@ const flowerCategories = [
 
 const allFlowers = [
     { id: '1', name: 'Rose', price: '$10', category: 'Roses', image: 'https://images.pexels.com/photos/5944199/pexels-photo-5944199.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '2', name: 'Tulip', price: '$15', category: 'Tulips', image: 'https://images.pexels.com/photos/1108294/pexels-photo-1108294.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '3', name: 'Lily', price: '$12', category: 'Lilies', image: 'https://images.pexels.com/photos/3563781/pexels-photo-3563781.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '4', name: 'Orchid', price: '$18', category: 'Orchids', image: 'https://images.pexels.com/photos/2789728/pexels-photo-2789728.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '5', name: 'Sunflower', price: '$8', category: 'Sunflowers', image: 'https://images.pexels.com/photos/36469/sunflower-flowers-yellow-nature-36469.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '6', name: 'Lily', price: '$12', category: 'Lilies', image: 'https://images.pexels.com/photos/3563781/pexels-photo-3563781.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '7', name: 'Lily', price: '$12', category: 'Lilies', image: 'https://images.pexels.com/photos/3563781/pexels-photo-3563781.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
-    { id: '8', name: 'Lily', price: '$12', category: 'Lilies', image: 'https://images.pexels.com/photos/3563781/pexels-photo-3563781.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' },
+    { id: '2', name: 'Tulips', price: '$15',category: 'Tulips', image: 'https://images.unsplash.com/photo-1589994160839-163cd867cfe8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '3', name: 'Lily', price: '$12', category: 'Lilies', image: 'https://plus.unsplash.com/premium_photo-1676498578286-94f337c53e81?q=80&w=1428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '4', name: 'Orchid', price: '$18', category: 'Orchids', image: 'https://images.unsplash.com/photo-1598797369458-efbff9e6dc22?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '5', name: 'Sunflower', price: '$8', category: 'Sunflowers', image: 'https://images.unsplash.com/photo-1551945326-df678a97c3af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '6', name: 'Lily', price: '$12', category: 'Lilies', image: 'https://images.unsplash.com/photo-1452957689853-fd2b4f3d3aa2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '7', name: 'Orchid', price: '$18', category: 'Orchids', image: 'https://images.unsplash.com/photo-1598797369458-efbff9e6dc22?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '8', name: 'Sunflower', price: '$8', category: 'Sunflowers', image: 'https://images.unsplash.com/photo-1551945326-df678a97c3af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '9', name: 'Rose', price: '$10', category: 'Roses', image: 'https://images.unsplash.com/photo-1518709779341-56cf4535e94b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '10', name: 'Tulips', price: '$15', category: 'Tulips', image: 'https://plus.unsplash.com/premium_photo-1677620614560-5f1b32416563?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: '12', name: 'Orchid', price: '$18', category: 'Orchids', image: 'https://images.unsplash.com/photo-1598797369458-efbff9e6dc22?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
 ];
 
 export default function HomeScreen() {

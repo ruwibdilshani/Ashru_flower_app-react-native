@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
   },
   imagePicker: {
-    backgroundColor: "#d601c3",
+    backgroundColor: "#fdc9f9",
     padding: 10,
     borderRadius: 5,
     marginBottom: 15,

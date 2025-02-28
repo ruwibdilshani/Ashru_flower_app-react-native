@@ -128,11 +128,11 @@ export default function CartScreen() {
         },
         cartContainer: {
             flex: 0.5, // Takes half of the screen
-            backgroundColor: "#fff",
+            backgroundColor: "#f8e1f6",
             padding: 10,
             borderTopLeftRadius: 20,
             borderTopRightRadius: 20,
-            shadowColor: "#000",
+            shadowColor: "#000000",
             shadowOpacity: 0.1,
             shadowRadius: 5,
             elevation: 5,
@@ -143,7 +143,7 @@ export default function CartScreen() {
             marginBottom: 10,
         },
         card: {
-            backgroundColor: "#fff",
+            backgroundColor: "#ffffff",
             padding: 10,
             borderRadius: 10,
             marginBottom: 10,
@@ -155,10 +155,14 @@ export default function CartScreen() {
             elevation: 5,
         },
         image: {
+            borderStyle : "solid",
+            borderWidth : 4,
+            borderColor : "#ffaeec",
             width: 100,
             height: 100,
             borderRadius: 10,
             marginRight: 10,
+
         },
         flowerText: {
             fontSize: 18,
@@ -189,24 +193,27 @@ export default function CartScreen() {
             gap: 10,
         },
         minusButton: {
-            backgroundColor: "red",
+            backgroundColor: "#faa5c8",
             padding: 5,
             borderRadius: 5,
             marginHorizontal: 5,
+
         },
         plusButton: {
-            backgroundColor: "green",
+            backgroundColor: "#d601c3",
             padding: 5,
             borderRadius: 5,
             marginHorizontal: 5,
         },
         emptyCart: {
+            top: 30,
             fontSize: 16,
             color: "gray",
             textAlign: "center",
+            opacity: 0.2,
         },
         footer: {
-            backgroundColor: "#fff",
+            backgroundColor: "#f8e1f6",
             marginTop: 5,
             alignItems: "center",
             bottom: 40,
@@ -216,9 +223,13 @@ export default function CartScreen() {
             fontWeight: "bold",
         },
         buyButton: {
-            backgroundColor: "blue",
-            padding: 10,
-            borderRadius: 5,
+            backgroundColor: "#015c03",
+            padding: 11,
+            borderRadius: 11,
             marginTop: 10,
         },
+        buttonText: {
+            color: "#fff",
+            fontWeight: "bold",
+        }
     });
