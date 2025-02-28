@@ -1,6 +1,6 @@
 # AshRuu - Flower Ordering Mobile App
 
-Cinnamon Bliss is a full-stack mobile application for online flower ordering, built using React Native with TypeScript and Expo. The backend is powered by Node.js with Express and Prisma ORM. The app includes features like Stripe payment integration, order history, order status tracking, and push notifications for order updates.
+AshRuu is a full-stack mobile application for online flower ordering, built using React Native with TypeScript and Expo. The backend is powered by Node.js with Express and Prisma ORM. The app includes features like Stripe payment integration, order history, order status tracking, and push notifications for order updates.
 
 ## Features
 
