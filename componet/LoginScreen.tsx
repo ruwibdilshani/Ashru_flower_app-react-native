@@ -67,7 +67,7 @@ export default function LoginScreen() {
           color: "#363636",
         }}
       >
-        Welcome to Encrypto
+        Welcome to AshRu
       </Text>
       <Text
         style={{
